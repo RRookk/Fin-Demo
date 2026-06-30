@@ -1,0 +1,18 @@
+# Fin Demo — Minimal dependencies for local API demo
+# Core
+fastapi>=0.111.0
+uvicorn>=0.29.0
+pydantic>=2.7.0
+
+# Database (SQLite for zero-config demo)
+sqlalchemy>=2.0.30
+aiosqlite>=0.20.0
+
+# HTTP client (for SDK)
+httpx>=0.27.0
+
+# Financial data (real stock prices for Forecaster demo)
+yfinance>=0.2.38
+
+# Optional: for richer demo experience
+# finnhub-python>=2.4.20  # uncomment if you have a Finnhub API key
